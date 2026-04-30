@@ -350,7 +350,7 @@ body > table:not(:first-of-type):not(:last-of-type) td {
 }
 
 body > table:not(:first-of-type):not(:last-of-type) td::before {
-  content: '$ ';
+  content: ' ';
   color: var(--muted);
   font-size: 0.65rem;
 }
